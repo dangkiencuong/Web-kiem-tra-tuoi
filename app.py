@@ -8,4 +8,5 @@ if st.button("Kiểm tra ngay"):
     if tuoi >= 18:
         st.success("Bạn đã đủ 18 tuổi, được phép xem phim xes!")
     else:
-        st.error("Bạn chưa đủ 18 tuổi, hãy quay lại sau nhé!")
+        st.error("Bạn chưa đủ 18 tuổi để xem xes đâu, hãy quay lại sau nhé!")
+st.image("https://share.google/zstGtUTiyH3uk1xt4", caption="Quảng cáo tài trợ")
