@@ -9,4 +9,4 @@ if st.button("Kiểm tra ngay"):
         st.success("Bạn đã đủ 18 tuổi, được phép xem phim xes!")
     else:
         st.error("Bạn chưa đủ 18 tuổi để xem xes đâu đồ ngu, hãy quay lại sau nhé!")
-st.image("https://share.google/zstGtUTiyH3uk1xt4", caption="Quảng cáo tài trợ")
+st.image("https://avatarmoi.com/wp-content/uploads/2026/01/Anh-con-meo-gio-ngon-giua-sinh-dong.webp", caption="Quảng cáo tài trợ")
