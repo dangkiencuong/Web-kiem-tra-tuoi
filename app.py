@@ -29,3 +29,12 @@ if st.button("Kiểm tra ngay"):
     if diem < 8.0:
         st.error("Điểm của bạn chưa đủ cho trường nào trong danh sách.")
         
+
+# Thông tin bản quyền
+st.sidebar.title("📌 Thông tin tác giả")
+st.sidebar.info("Được thiết kế và phát triển bởi: **Đặng Kiên Cường**")
+st.sidebar.write("---")
+
+# Dưới chân trang web (Footer)
+st.write("---")
+st.caption("© 2026 Designed & name by Dang Kien Cuong. All rights reserved.")
