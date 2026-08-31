@@ -1,12 +1,31 @@
 import streamlit as st
 
-st.title("Web Kiểm Tra Độ Tuổi tuất")
+st.title("Tra Cuu Truong Trung Tuyen")
 
-tuoi = st.number_input("Nhập tuổi của bạn vào đây:", min_value=1, max_value=100, value=18)
+# Nhập tổng điểm thi
+diem = st.number_input("Nhap diem cua ban:", min_value=0.0, max_value=40.0, value=19.0)
 
-if st.button("Kiểm tra ngay"):
-    if tuoi >= 18:
-        st.success("Bạn đã đủ 18 tuổi, được phép xem phim xes!")
-    else:
-        st.error("Bạn chưa đủ 18 tuổi để xem xes đâu đồ ngu, hãy quay lại sau nhé!")
-st.image("https://avatarmoi.com/wp-content/uploads/2026/01/Anh-con-meo-gio-ngon-giua-sinh-dong.webp", caption="Quảng cáo tài trợ")
+if st.button("Kiem tra ngay"):
+    st.write("---")
+    st.subheader("Ket qua xet tuyen:")
+    
+    # 1. Trường điểm cao nhất
+    if diem >= 19.25:
+        st.success("Ban du diem do truong: Thanh Oai B (Moc 19.25)")
+        
+    # 2. Trường điểm tiếp theo
+    if diem >= 16.5:
+        st.success("Ban du diem do truong: Thanh Oai A (Moc 16.5)")
+        
+    # 3. Trường điểm tiếp theo
+    if diem >= 15.25:
+        st.success("Ban du diem do truong: Ly Tu Tan (Moc 15.25)")
+        
+    # 4. Trường điểm sàn
+    if diem >= 8.0:
+        st.success("Ban du diem do truong: Thanh Xuan (Moc 8.0)")
+        
+    # 5. Dưới mốc sàn -> Báo rớt
+    if diem < 8.0:
+        st.error("Diem cua ban chua du do truong nao trong danh sach.")
+        
