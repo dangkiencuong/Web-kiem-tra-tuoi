@@ -68,7 +68,7 @@ if st.button("Kiểm tra ngay"):
 # Thông tin bản quyền
 st.sidebar.title("📌 Thông tin tác giả")
 st.sidebar.info("Được thiết kế và phát triển bởi: **Đặng Kiên Cường**")
-st.sidebar.info(Ngày công bố dự án: 2 giờ sáng ngày 1/9/2026)
+st.sidebar.info("Ngày công bố dự án: **2 giờ sáng ngày 1/9/2026**")
 st.sidebar.write("---")
 
 # Dưới chân trang web (Footer)
