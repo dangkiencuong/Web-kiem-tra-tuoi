@@ -11,27 +11,55 @@ if st.button("Kiểm tra ngay"):
     
     # 1. Trường điểm cao nhất
     if diem >= 19.25:
+        st.balloons()
         st.success("Bạn đủ điểm đỗ trường: Thanh Oai B (Mốc 19.25)")
         
     # 2. Trường điểm tiếp theo
     if diem >= 16.5:
+        st.balloons()
         st.success("Bạn đủ điểm đỗ trường: Thanh Oai A (Mốc 16.5)")
         
     # 3. Trường điểm tiếp theo
     if diem >= 15.25:
+        st.balloons()
         st.success("Bạn đủ điểm đỗ trường: Lý Tự Tấn (Mốc 15.25)")
         
     # 4. Trường điểm tiếp theo
     if diem >= 11.0:
+        st.balloons()
         st.success("bạn đủ điểm đỗ trường: Lưu Hoàng (Mốc 11.0)")
         
     # 5. Trường điểm sàn
     if diem >= 8.0:
+        st.balloons()
         st.success("Bạn đủ điểm đỗ trường: Thanh Xuân (Mốc 8.0)")
         
     # 6. Dưới mốc sàn -> Báo rớt
     if diem < 8.0:
         st.error("Điểm của bạn chưa đủ cho trường nào trong danh sách.")
+        st.markdown(
+            """
+            <style>
+            @keyframes sad-fall {
+                0% { top: -10%; opacity: 0; transform: rotate(0deg); }
+                10% { opacity: 1; }
+                90% { opacity: 1; }
+                100% { top: 110%; opacity: 0; transform: rotate(360deg); }
+            }
+            .sad-emoji {
+                position: fixed; font-size: 2rem;
+                animation: sad-fall 6s linear infinite;
+                z-index: 9999; pointer-events: none;
+            }
+            </style>
+            <div class="sad-emoji" style="left: 10%; animation-delay: 0s;">😭</div>
+            <div class="sad-emoji" style="left: 25%; animation-delay: 1.5s;">😥</div>
+            <div class="sad-emoji" style="left: 40%; animation-delay: 0.5s;">😞</div>
+            <div class="sad-emoji" style="left: 60%; animation-delay: 2s;">😢</div>
+            <div class="sad-emoji" style="left: 80%; animation-delay: 1s;">😭</div>
+            """,
+            unsafe_allow_html=True
+        )
         
 
 # Thông tin bản quyền
