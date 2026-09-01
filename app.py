@@ -21,11 +21,15 @@ if st.button("Kiểm tra ngay"):
     if diem >= 15.25:
         st.success("Bạn đủ điểm đỗ trường: Lý Tự Tấn (Mốc 15.25)")
         
-    # 4. Trường điểm sàn
+    # 4. Trường điểm tiếp theo
+    if diem >= 11.0:
+        st.success("bạn đủ điểm đỗ trường: Lưu Hoàng (Mốc 11.0)")
+        
+    # 5. Trường điểm sàn
     if diem >= 8.0:
         st.success("Bạn đủ điểm đỗ trường: Thanh Xuân (Mốc 8.0)")
         
-    # 5. Dưới mốc sàn -> Báo rớt
+    # 6. Dưới mốc sàn -> Báo rớt
     if diem < 8.0:
         st.error("Điểm của bạn chưa đủ cho trường nào trong danh sách.")
         
