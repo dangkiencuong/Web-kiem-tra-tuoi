@@ -52,11 +52,14 @@ if st.button("Kiểm tra ngay"):
                 z-index: 9999; pointer-events: none;
             }
             </style>
-            <div class="sad-emoji" style="left: 10%; animation-delay: 0s;">😭</div>
+            <div class="sad-emoji" style="left: 10%; animation-delay: 1,2s;">😭</div>
             <div class="sad-emoji" style="left: 25%; animation-delay: 1.5s;">😥</div>
-            <div class="sad-emoji" style="left: 40%; animation-delay: 0.5s;">😞</div>
+            <div class="sad-emoji" style="left: 40%; animation-delay: 0.9s;">😞</div>
             <div class="sad-emoji" style="left: 60%; animation-delay: 2s;">😢</div>
             <div class="sad-emoji" style="left: 80%; animation-delay: 1s;">😭</div>
+            <div class="sad-emoji" style="left: 30%; animation-delay: 1.3s;">😭</div>
+            <div class="sad-emoji" style="left: 90%; animation-delay: 1,7s;">😭</div>
+            <div class="sad-emoji" style="left: 20%; animation-delay: 1.9s;">😭</div>
             """,
             unsafe_allow_html=True
         )
