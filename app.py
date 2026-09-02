@@ -39,9 +39,9 @@ if st.button("Kiểm tra ngay"):
             <div class="happy-emoji" style="left: 80%; animation-delay: 2,8s;">🥳</div>
             <div class="happy-emoji" style="left: 85%; animation-delay: 2,7s;">🥳</div>
             <div class="happy-emoji" style="left: 23%; animation-delay: 2,3s;">🥑</div>
-            <div class="happy-emoji" style="left: 59%; animation-delay: 3s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 65px; height: 65px; display: inline-block;"></div>
-            <div class="happy-emoji" style="left: 80%; animation-delay: 3,5s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 70px; height: 70px; display: inline-block;"></div>
-            <div class="happy-emoji" style="left: 30%; animation-delay: 3,5s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 70px; height: 70px; display: inline-block;"></div>
+            <div class="happy-emoji" style="left: 59%; animation-delay: 4s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 65px; height: 65px; display: inline-block;"></div>
+            <div class="happy-emoji" style="left: 80%; animation-delay: 5s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 70px; height: 70px; display: inline-block;"></div>
+            <div class="happy-emoji" style="left: 30%; animation-delay: 5s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 70px; height: 70px; display: inline-block;"></div>
             
             """,
             unsafe_allow_html=True
