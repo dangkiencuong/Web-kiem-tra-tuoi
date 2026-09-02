@@ -10,9 +10,41 @@ if st.button("Kiểm tra ngay"):
     st.write("---")
     st.subheader("Kết quả xét tuyển:")
     
+    # 1. Tạo khung trống
     khung_hinh = st.empty()
-    time.sleep(5)
-    khung_hinh.image("https://picsum.photos/800/600", caption="👅", use_container_width=True)
+    
+    # 2. Đợi 5 giây sau khi bấm nút tra cứu
+    time.sleep(6)
+    
+    # 3. ĐÙNG MỘT CÁI! Phủ ảnh kín 100% toàn bộ màn hình
+    link_anh_hu = "🤪"  # Thay link ảnh thè lưỡi của bạn vào đây
+    
+    khung_hinh.markdown(
+        f"""
+        <div style="
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            z-index: 999999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        ">
+            <img src="{link_anh_hu}" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    
+    # 4. Bắt người dùng "đứng hình" chịu trận đúng 7 giây
+    time.sleep(7)
+    
+    # 5. Hết 7 giây, xóa bức ảnh đi để hiện lại kết quả
+    khung_hinh.empty()
+    
     
     
     # 1. Trường điểm cao nhất
