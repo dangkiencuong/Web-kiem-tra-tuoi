@@ -39,7 +39,7 @@ if st.button("Kiểm tra ngay"):
             <div class="happy-emoji" style="left: 80%; animation-delay: 2,8s;">🥳</div>
             <div class="happy-emoji" style="left: 85%; animation-delay: 2,7s;">🥳</div>
             <div class="happy-emoji" style="left: 23%; animation-delay: 2,3s;">🥑</div>
-            <div style="left: 59%; animation-delay: 3s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; display: inline-block;"></div>
+            <div class="happy-emoji" style="left: 59%; animation-delay: 3s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; display: inline-block;"></div>
             """,
             unsafe_allow_html=True
         )
