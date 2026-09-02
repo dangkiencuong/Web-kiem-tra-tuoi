@@ -10,6 +10,8 @@ if st.button("Kiểm tra ngay"):
     st.write("---")
     st.subheader("Kết quả xét tuyển:")
     
+    khung_hinh = st.empty()
+    time.sleep(5)
     khung_hinh.image("https://i.ibb.co/3s2v4fN/ghost.jpg", caption="👅", use_container_width=True)
     
     
