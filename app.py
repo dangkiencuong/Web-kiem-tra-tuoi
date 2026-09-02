@@ -34,7 +34,12 @@ if st.button("Kiểm tra ngay"):
             <div class="happy-emoji" style="left: 55%; animation-delay: 0.5s;">🥳</div>
             <div class="happy-emoji" style="left: 75%; animation-delay: 2s;">✨</div>
             <div class="happy-emoji" style="left: 90%; animation-delay: 1s;">🥳</div>
-            <div class="happy-emoji" style="left: 97%; animation-delay: 1,4s;">🥳</div>
+            <div class="happy-emoji" style="left: 97%; animation-delay: 3s;">🥳</div>
+            <div class="happy-emoji" style="left: 40%; animation-delay: 2,5s;">🥳</div>
+            <div class="happy-emoji" style="left: 80%; animation-delay: 2,8s;">🥳</div>
+            <div class="happy-emoji" style="left: 85%; animation-delay: 2,7s;">🥳</div>
+            <div class="happy-emoji" style="left: 23%; animation-delay: 2,3s;">🥑</div>
+            <div style="left: 25%; animation-delay: 2,5s;"><img src="https://lens.usercontent.google.com/image?vsrid=CObkh7Hk5oTKtAEQARgBIhBHSE1ouOTRAjb_T_NGrQEVMoIBIgJzbygrQnQKLmxmZS1kdW1teTo0NjNhNTVjNS1lNjZiLTRiYjktYjFkMi00MWI5OGExZWM3MTASQgpAL2Jucy9zby9ib3JnL3NvL2Jucy9sZW5zLWZyb250ZW5kLWFwaS9wcm9kLmxlbnMtZnJvbnRlbmQtYXBpLzIyNFoECgJzbzjo3-bJ-c-WA1AAagppbWFnZS9qcGVn" style="width: 50px;"></div>
             """,
             unsafe_allow_html=True
         )
