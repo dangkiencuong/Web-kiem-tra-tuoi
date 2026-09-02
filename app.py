@@ -14,10 +14,10 @@ if st.button("Kiểm tra ngay"):
     khung_hinh = st.empty()
     
     # 2. Đợi 5 giây sau khi bấm nút tra cứu
-    time.sleep(6)
+    time.sleep(9)
     
     # 3. ĐÙNG MỘT CÁI! Phủ ảnh kín 100% toàn bộ màn hình
-    link_anh_hu = "🤪"  # Thay link ảnh thè lưỡi của bạn vào đây
+    link_anh_hu = "ngu"  # Thay link ảnh thè lưỡi của bạn vào đây
     
     khung_hinh.markdown(
         f"""
@@ -39,10 +39,10 @@ if st.button("Kiểm tra ngay"):
         unsafe_allow_html=True
     )
     
-    # 4. Bắt người dùng "đứng hình" chịu trận đúng 7 giây
-    time.sleep(7)
+    # 4. Bắt người dùng "đứng hình" chịu trận đúng 14 giây
+    time.sleep(14)
     
-    # 5. Hết 7 giây, xóa bức ảnh đi để hiện lại kết quả
+    # 5. Hết 14 giây, xóa bức ảnh đi để hiện lại kết quả
     khung_hinh.empty()
     
     
