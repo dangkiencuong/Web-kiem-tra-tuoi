@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
 st.title("Tra Cứu Trường Trúng Tuyển,(đừng tin)")
 
@@ -8,6 +9,12 @@ diem = st.number_input("Nhập điểm của bạn:", min_value=0.0, max_value=4
 if st.button("Kiểm tra ngay"):
     st.write("---")
     st.subheader("Kết quả xét tuyển:")
+    
+# dòng này để tron nhé:
+    khung_hinh = st.empty()
+    time.sleep(5)
+    khung_hinh.image("https://i.imgur.com/gK9J27P.jpeg", caption="https://i.postimg.cc/Bn20CrZj/phat-png.webp")
+    
     
     # 1. Trường điểm cao nhất
     if diem >= 19.25:
