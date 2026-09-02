@@ -34,13 +34,12 @@ if st.button("Kiểm tra ngay"):
             <div class="happy-emoji" style="left: 55%; animation-delay: 0.5s;">🥳</div>
             <div class="happy-emoji" style="left: 75%; animation-delay: 2s;">✨</div>
             <div class="happy-emoji" style="left: 90%; animation-delay: 1s;">🥳</div>
-            <div class="happy-emoji" style="left: 97%; animation-delay: 3s;">🥳</div>
+            <div class="happy-emoji" style="left: 89%; animation-delay: 3s;">🥳</div>
             <div class="happy-emoji" style="left: 40%; animation-delay: 2,5s;">🥳</div>
             <div class="happy-emoji" style="left: 80%; animation-delay: 2,8s;">🥳</div>
             <div class="happy-emoji" style="left: 85%; animation-delay: 2,7s;">🥳</div>
             <div class="happy-emoji" style="left: 23%; animation-delay: 2,3s;">🥑</div>
-            <div style="left: 45%; animation-delay: 4s;"><img src="https://i.postimg.cc/Bn20CrZj/phat-png.webp" style="width: 50px;"></div>
-            
+            <div style="left: 59%; animation-delay: 3s; background-image: url('https://i.postimg.cc/Bn20CrZj/phat-png.webp'); background-size: contain; background-repeat: no-repeat; width: 60px; height: 60px; display: inline-block;"></div>
             """,
             unsafe_allow_html=True
         )
