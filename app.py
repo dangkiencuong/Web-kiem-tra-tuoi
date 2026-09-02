@@ -12,7 +12,7 @@ if st.button("Kiểm tra ngay"):
     
     khung_hinh = st.empty()
     time.sleep(5)
-    khung_hinh.image("https://i.ibb.co/3s2v4fN/ghost.jpg", caption="👅", use_container_width=True)
+    khung_hinh.image("https://picsum.photos/800/600", caption="👅", use_container_width=True)
     
     
     # 1. Trường điểm cao nhất
