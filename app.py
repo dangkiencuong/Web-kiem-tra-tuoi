@@ -10,10 +10,7 @@ if st.button("Kiểm tra ngay"):
     st.write("---")
     st.subheader("Kết quả xét tuyển:")
     
-# dòng này để tron nhé:
-    khung_hinh = st.empty()
-    time.sleep(6)
-    khung_hinh.image("https://i.imgur.com/gK9J27P.jpeg", caption="👙")
+    khung_hinh.image("https://i.ibb.co/3s2v4fN/ghost.jpg", caption="👅", use_container_width=True)
     
     
     # 1. Trường điểm cao nhất
