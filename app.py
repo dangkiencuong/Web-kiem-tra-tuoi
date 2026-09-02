@@ -12,8 +12,8 @@ if st.button("Kiểm tra ngay"):
     
 # dòng này để tron nhé:
     khung_hinh = st.empty()
-    time.sleep(5)
-    khung_hinh.image("https://i.imgur.com/gK9J27P.jpeg", caption="https://i.postimg.cc/Bn20CrZj/phat-png.webp")
+    time.sleep(6)
+    khung_hinh.image("https://i.imgur.com/gK9J27P.jpeg", caption="👙")
     
     
     # 1. Trường điểm cao nhất
