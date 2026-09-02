@@ -12,7 +12,32 @@ if st.button("Kiểm tra ngay"):
     # 1. Trường điểm cao nhất
     if diem >= 19.25:
         st.balloons()
-        st.success("Bạn đủ điểm đỗ trường: Thanh Oai B (Mốc 19.25)")
+        st.success("Bạn đủ điểm đỗ trường: Thanh Oai B (Mốc 19.25)"
+    # Hiệu ứng vui rơi khi trúng tuyển
+        st.markdown(
+            """
+            <style>
+            @keyframes happy-fall {
+                0% { top: -10%; opacity: 0; transform: rotate(0deg); }
+                10% { opacity: 1; }
+                90% { opacity: 1; }
+                100% { top: 110%; opacity: 0; transform: rotate(360deg); }
+            }
+            .happy-emoji {
+                position: fixed; font-size: 2rem;
+                animation: happy-fall 6s linear infinite;
+                z-index: 9999; pointer-events: none;
+            }
+            </style>
+            <div class="happy-emoji" style="left: 15%; animation-delay: 0s;">🥳</div>
+            <div class="happy-emoji" style="left: 35%; animation-delay: 1.2s;">🎉</div>
+            <div class="happy-emoji" style="left: 55%; animation-delay: 0.5s;">🥳</div>
+            <div class="happy-emoji" style="left: 75%; animation-delay: 2s;">✨</div>
+            <div class="happy-emoji" style="left: 90%; animation-delay: 1s;">🥳</div>
+            <div class="happy-emoji" style="left: 97%; animation-delay: 1,4s;">🥳</div>
+            """,
+            unsafe_allow_html=True
+        )
         
     # 2. Trường điểm tiếp theo
     if diem >= 16.5:
@@ -60,6 +85,7 @@ if st.button("Kiểm tra ngay"):
             <div class="sad-emoji" style="left: 30%; animation-delay: 1.3s;">😭</div>
             <div class="sad-emoji" style="left: 90%; animation-delay: 1,7s;">😭</div>
             <div class="sad-emoji" style="left: 20%; animation-delay: 1.9s;">😭</div>
+            <div class="sad-emoji" style="left: 97%; animation-delay: 2.2s;"😿</div>
             """,
             unsafe_allow_html=True
         )
